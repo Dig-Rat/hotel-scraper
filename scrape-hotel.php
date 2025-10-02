@@ -30,10 +30,14 @@ try
 	echo "Sending HTTP GET request" . PHP_EOL;
 	$crawler = $client->request('GET', $urlFull);
 	echo "Request done" . PHP_EOL;
-	$crawler = $client->waitFor('script');
+
+	// Wait for body to exist so we know JS is running.
+	$crawler = $client->waitFor("body", 10);
+
+	// initial load screenshot.
+	$client->takeScreenshot(__DIR__ . "/screenshot-init.png");
 
 	// Dump the html for debugging.
-	//echo $crawler->html() . PHP_EOL;
 	$htmlText = $crawler->html();
 	DumpHtml($htmlText);
 
