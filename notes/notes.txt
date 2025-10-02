@@ -1,0 +1,41 @@
+
+#######################################
+# reference links
+#######################################
+
+PHP help
+https://phptherightway.com/
+
+Gecko driver for firefox
+https://geckodriver.com/download/
+https://geckodriver.com/how-to-install-geckodriver-on-linux/
+
+chrome driver
+sudo apt install chromium-browser -y
+sudo apt install chromium-chromedriver -y
+???
+
+Composer
+https://getcomposer.org/download/
+https://github.com/composer/composer
+
+Symfony Panther
+https://symfony.com/packages/Panther
+https://github.com/symfony/panther
+
+browser-kit
+https://symfony.com/doc/current/components/browser_kit.html#learn-more
+
+DomCrawler
+https://symfony.com/doc/current/components/dom_crawler.html
+https://github.com/symfony/symfony/blob/7.3/src/Symfony/Component/DomCrawler/Crawler.php
+
+
+
+#######################################
+# Stuff for later / cool
+#######################################
+
+Sending Emails with Mailer
+https://symfony.com/doc/current/mailer.html
+

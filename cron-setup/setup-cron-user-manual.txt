@@ -1,0 +1,7 @@
+
+# edit cron jobs
+crontab -e
+
+# add this entry to run every 30 min
+*/30 * * * * php /home/youruser/hotel-scraper/scraper.php >> /home/youruser/hotel-scraper/log.txt 2>&1
+

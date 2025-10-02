@@ -1,10 +1,16 @@
-# git ignore for hotel web scraper project.
+# git ignore
 
-# ignore logs
-/logs
+# logs
+logs/
+# dumps
+exports/
 
-
-# composer setup file
+# composer files.
 composer-setup.php
+composer.json
+composer.lock
+vendor/
 
+# downloaded files
+geckodriver-v0.34.0-linux64.tar.gz
 
