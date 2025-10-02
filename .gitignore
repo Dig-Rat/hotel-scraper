@@ -1,0 +1,10 @@
+# git ignore for hotel web scraper project.
+
+# ignore logs
+/logs
+
+
+# composer setup file
+composer-setup.php
+
+
