@@ -4,6 +4,8 @@
 logs/
 # dumps
 exports/
+# images
+images/
 
 # composer files.
 composer-setup.php
@@ -14,3 +16,5 @@ vendor/
 # downloaded files
 geckodriver-v0.34.0-linux64.tar.gz
 
+# swap file for kate editor
+..gitignore.kate-swp
